@@ -30,4 +30,12 @@ class Pageone_database extends CI_Model {
         $this->db->where('id',$dataz['id']);
 	$this->db->update('pageone',$dataz);
     }
+
+    public function team(){
+       
+        $this->db->select('*');
+        $this->db->from('team');
+        $query = $this->db->get();
+        return json_encode($query->result());
+    }
 }

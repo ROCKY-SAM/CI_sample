@@ -68,4 +68,13 @@ class Pageone extends CI_Controller {
         $this->load->view('pagethree', $data);
     }
 
+    public function chart(){
+        $data['title'] = '';
+      
+        $pageone_database_service = new Pageone_database();
+        $data['team'] = $pageone_database_service->team();
+        header('Access-Control-Allow-Origin: *');
+        $this->load->view('pageFour', $data);
+    }
+
 }

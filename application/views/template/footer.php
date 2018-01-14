@@ -44,6 +44,7 @@
     <!-- Custom scripts for this page-->
     <script src="<?php echo base_url(); ?>resources/js/sb-admin-datatables.min.js"></script>
     <script src="<?php echo base_url(); ?>resources/js/sb-admin-charts.min.js"></script>
+    <script src="<?php echo base_url(); ?>resources/js/Chart.min.js"></script>
   </div>
 </body>
 

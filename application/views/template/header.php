@@ -46,6 +46,9 @@
             <li>
               <a href="<?php echo site_url(); ?>/pageone/viewList">pagetwo</a>
             </li>
+            <li>
+              <a href="<?php echo site_url(); ?>/pageone/chart">pageFour</a>
+            </li>
           </ul>
         </li>
  
